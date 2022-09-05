@@ -4,7 +4,7 @@ Simple binary hex patcher written on ZIG lang (www.ziglang.org)
 - this code not perfect, I'm not responsible for any problems with it.
 - it works for linux(zig build -Drelease-small) and windows(-Drelease-small=true -Dtarget=x86_64-windows-gnu) targets
 - compiled linux version not using any dynamic libraries, fully autonomus executable!
-- because it is simple, to patch file, it fully loaded in mem buffer
+- because it is simple patcher, to patch file, it just load file in mem buffer
 - search sequence xored for fun and profit (to avoid patching for patcher :smile: )
 
 # usage

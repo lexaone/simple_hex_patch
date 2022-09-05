@@ -12,6 +12,7 @@ Simple binary hex patcher written on ZIG lang (www.ziglang.org)
 - optionally you can install very handy bbe utility (https://sourceforge.net/projects/bbe-/). It is a sed-like editor for binary files.
 - then clone this repository: 
 > git clone https://github.com/lexaone/simple_hex_patch
+
 > cd simple_hex_patch
 
 - first, prepare the patch - you need to create search sequence, replace sequence, and choose any xor byte:

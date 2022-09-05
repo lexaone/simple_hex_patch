@@ -26,8 +26,9 @@ example: search sequence "\xA1\xB1\xC1\xD1\xE1\xF1"
 - optionally, you can strip the executable (I like small files!): 
 > strip ./zig-out/bin/simple_hex_patch
 - congratulations! you simple and standalone patch prepared!
-```
+
 # now test it:
+```
 echo -n "\x00\xFF\0x00\xFF\xA1\xB1\xC1\xD1\xE1\xF1\xFF\x00\xFF\0x00\xFF\0xAA" >file_to_patch
 cat file_to_patch|bbe -e 'p H'
 x00 xff x00 xff xa1 xb1 xc1 xd1 xe1 xf1 xff x00 xff x00 xff xaa
